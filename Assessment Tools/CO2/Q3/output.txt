@@ -1,0 +1,6 @@
+Sequential (1 Thread) Time: 112.40 ms | Speedup: 1.00x
+Pool  4 Threads       Time:  30.12 ms | Speedup: 3.73x | Protected Counter: 64000
+Pool  8 Threads       Time:  16.85 ms | Speedup: 6.67x | Protected Counter: 64000
+Pool 16 Threads       Time:  14.20 ms | Speedup: 7.92x | Protected Counter: 64000
+Pool 64 Threads       Time:  15.64 ms | Speedup: 7.19x | Protected Counter: 64000
+Unprotected Counter with 16 Threads: 41892 (Expected: 64000 -> Lost Updates!)
