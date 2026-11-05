@@ -47,3 +47,27 @@
 - **Core Topics:** Monolithic vs. Microkernel vs. Hybrid architectures, system call trapping and dual-mode CPU switching, MMU page translation, RTOS priority inheritance, and modern trends in kernel development (Rust, microservices, containerization).
 
 📖 [Read Full Assessment Tool 3 Presentation](Assessment_Tool_3_CO1.md)
+
+
+---
+
+## 🏥 Assignment 1 — Evaluate and Justify the Operating-System Design of a Smart Hospital (50 Marks, K5)
+
+- **Student Name:** Vishalbalaji J (`192525014`)
+- **Word Report (.docx):**
+  - [📥 Download `CSA04_192525014_Vishalbalaji_J_Assignment1.docx`](CSA04_192525014_Vishalbalaji_J_Assignment1.docx)
+  - [📥 Download `CSA04_OS_Assignment_1_Smart_Hospital.docx`](CSA04_OS_Assignment_1_Smart_Hospital.docx)
+- **Execution Environment:** `Ubuntu 22.04.4 LTS (Kernel 6.5.0-x86_64)` | `gcc 13.2.0 (-std=c11 -Wall -Wextra -pthread)`
+- **Task Folders (`Task01` – `Task12`):**
+  - [`Task01/`](Task01/) — Evaluate the Requirements of Each Computing Environment
+  - [`Task02/`](Task02/) — Judge the Type of Operating System for Each Environment
+  - [`Task03/`](Task03/) — Evaluate Operating-System Structures
+  - [`Task04/`](Task04/) — Evaluate the Services an Operating System Must Provide
+  - [`Task05/`](Task05/) — Examine System Calls (`task05_patient_read.c` & `strace`)
+  - [`Task06/`](Task06/) — Evaluate the Cost of System Calls (`task06_copy_syscalls.c` & `strace -c`)
+  - [`Task07/`](Task07/) — Evaluate Process Control System Calls (`task07_shell_jobs.c`)
+  - [`Task08/`](Task08/) — Evaluate CPU States and Protection
+  - [`Task09/`](Task09/) — Evaluate the Memory Hierarchy and I/O Systems
+  - [`Task10/`](Task10/) — Measure and Compare (`task10_proc_vs_thread.c` benchmark)
+  - [`Task11/`](Task11/) — Recommend and Defend the Operating-System Plan
+  - [`Task12/`](Task12/) — Day-4 Design Challenge: Hybrid Cloud-Edge OS Adaptation
