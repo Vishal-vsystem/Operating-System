@@ -1,0 +1,9 @@
+buffer    1 bytes: 10001 read() calls
+buffer  512 bytes:    21 read() calls
+buffer 4096 bytes:     4 read() calls
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 51.42    0.018412           1     10027           read
+ 47.89    0.017148           1     10029           write
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.035806                 20085           total
